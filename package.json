@@ -1,0 +1,22 @@
+{
+  "name": "hellthgobackend",
+  "version": "1.0.0",
+  "description": "hellthGo backend withMoralis and Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inspi-writer001/hellthgoBackend.git"
+  },
+  "author": "Inspiration",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inspi-writer001/hellthgoBackend/issues"
+  },
+  "homepage": "https://github.com/inspi-writer001/hellthgoBackend#readme",
+  "dependencies": {
+    "mongoose": "^6.2.9"
+  }
+}

@@ -1,19 +1,19 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import "../styles/Login.css";
 import { useMoralis } from "react-moralis";
 
-function Signup() {
-  const { signup } = useMoralis();
+function Loginmail() {
+  const { login } = useMoralis();
 
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
 
   return (
-    <div className="">
+    <div>
       <div
         className="sign-up"
         style={{
-          marginTop: 10,
+          marginTop: 150,
         }}
       >
         <div
@@ -45,15 +45,12 @@ function Signup() {
             }}
           />
         </div>
-        <button
-          className="login-button"
-          onClick={() => signup(email, password)}
-        >
-          Sign up
+        <button className="login-button" onClick={login}>
+          login
         </button>
       </div>
     </div>
   );
 }
 
-export default Signup;
+export default Loginmail;
